@@ -2,9 +2,9 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <Header>
+        <header>
             <h2>Kyle's Movie App</h2>
-        </Header>
+        </header>
     )
 }
 

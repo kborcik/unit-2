@@ -1,9 +1,8 @@
 const MovieCard = ({ movie, addMovie, removeMovie, list }) => {
   const inWatchList = list.filter((mov)=> mov.id ===movie.id)
-  const button = inWatchList === 0 ? (
+  const button = inWatchList.length === 0 ? (
     <button onClick={() => addMovie(movie)}>Add to List</button>
     ) : (
-      
       <button onClick={() => removeMovie(movie)}>Remove</button>
   )
   
