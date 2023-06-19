@@ -6,7 +6,7 @@ html {
 header {
   display: flex;
   height: 70px;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 15px;
   align-items: center;
   padding: 0px 80px;
